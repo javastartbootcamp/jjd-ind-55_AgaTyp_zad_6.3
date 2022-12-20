@@ -6,8 +6,8 @@ public class MatrixUtils {
         String dash = "-".repeat(6);
 
         for (int[] row : matrix) {
-            for (int col : row){
-                System.out.printf("%5d|",col);;
+            for (int col : row) {
+                System.out.printf("%5d|", col);
             }
             System.out.printf("\n%s\n", dash.repeat(matrix[0].length));
         }
